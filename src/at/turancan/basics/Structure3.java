@@ -1,3 +1,5 @@
+package at.turancan.basics;
+
 import java.util.Random;
 public class Structure3 {
     public static void main(String[] args) {
