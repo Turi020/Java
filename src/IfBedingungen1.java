@@ -11,6 +11,8 @@ public class IfBedingungen1 {
         } else if(randomNumber > 10) {
         } else {
 
+        }
+
 
         }
 }
