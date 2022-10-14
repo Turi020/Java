@@ -32,10 +32,31 @@ public class CesarEnkryption {
                     for (char c : chars) {
                         c += key;
                         System.out.print(c);
-
                     }
+                    System.out.println();
+                    System.out.println("Geben Sie den Text an den Sie verschlüsseln wollen.");
+                    System.out.println();
+                    break;
+
+                case 2:
+                    text = scanner.nextLine();
+                    System.out.println();
+                    chars = text.toCharArray();
+                    for (char c : chars) {
+                        c -= key;
+                        System.out.print(c);
+                    }
+                    System.out.println();
+                    System.out.println("Geben Sie den Text an den Sie entschlüsseln wollen.");
+                    System.out.println();
+                    break;
+
+                case 3:
+                    System.out.println("Vorgang wird beendet...");
+                    isFinished = true;
+                    break;
             }
         }
-
     }
+
 }
