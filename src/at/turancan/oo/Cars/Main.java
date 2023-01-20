@@ -1,4 +1,7 @@
-package at.turancan.oo;
+package at.turancan.oo.Cars;
+
+import at.turancan.oo.Cars.Car;
+import at.turancan.oo.Cars.Engine;
 
 public class Main {
  public static void main(String[] args) {
@@ -11,9 +14,9 @@ public class Main {
   c1.setFuelConsumption(38);
   c1.setSerialNumber("4");
   c1.setColor("yellow");
+  c1.setSpeed(70);
   c1.setFuelAmount(100);
   c1.amountOfRepetitions = 5;
-  c1.setSpeed(70);
   System.out.println(c1.getEngine().getHorsePower());
 
   c1.drive();

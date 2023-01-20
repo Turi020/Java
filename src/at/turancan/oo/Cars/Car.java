@@ -1,4 +1,4 @@
-package at.turancan.oo;
+package at.turancan.oo.Cars;
 
 public class Car {
     private int speed;
@@ -12,7 +12,7 @@ public class Car {
     private String color;
     public int amountOfRepetitions;
 
-    public Car(Engine engine, String b, String sn) {
+    public Car(Engine engine, String brand, String serialNumber) {
         this.engine = engine;
         this.brand = brand;
         this.serialNumber = serialNumber;
@@ -50,7 +50,7 @@ public class Car {
 
         for (int i = 0; i < this.amountOfRepetitions; i++) {
             System.out.println("Tut");
-            System.out.println("ich bin ein " + this.brand + "un habe die Farbe " + this.color + "und habe " + this.getEngine().getHorsePower());
+            System.out.println("ich bin ein " + this.brand + "und habe die Farbe " + this.color + "und habe " + this.getEngine().getHorsePower());
         }
     }
 
