@@ -10,4 +10,15 @@ public class Engine {
         this.horsepower = horsePower;
         this.type = type;
     }
+
+    public void drive(int amount){
+        System.out.println("motor is running with"+amount);
+    }
+    public int getHorsepower (){
+        return horsepower;
+    }
+
+    public TYPE getType() {
+        return type;
+    }
 }
