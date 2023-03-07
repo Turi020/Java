@@ -7,4 +7,13 @@ public class Car {
     private int range;
     private int maxspeed;
     private int manufacturerdiscount;
+
+    public Car (String c, int maxS, int baseP, int baseC){
+        this.color=c;
+        this.maxspeed=maxS;
+        this.baseconsumption=baseP;
+        this.basePrice=baseP;
+
+    }
+
 }
