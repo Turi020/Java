@@ -13,7 +13,7 @@ this.name=name;
 this.color= color;
 this.powerConsumption=powerConsumption;
 this.overallPowerConsumption=overallPowerConsumption;
-this.isOn=true;
+
 
     }
 
