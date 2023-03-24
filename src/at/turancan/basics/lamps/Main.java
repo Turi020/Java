@@ -1,4 +1,7 @@
 package at.turancan.basics.lamps;
 
-public class lamp {
+public class Main {
+
+
+
 }
