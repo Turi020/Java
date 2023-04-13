@@ -9,6 +9,7 @@ public class Lamp {
     private List <Glueelement> glueElement;
 
 
+
     public Lamp(String NameLamp){
         this.NameLamp=NameLamp;
         this.overallPowerConsumption=overallPowerConsumption;
@@ -16,5 +17,9 @@ public class Lamp {
 
 
     }
+    public void addLamp (Glueelement glueelement) {
+        this.glueElement.add(glueelement);
 
+    }
+  public
 }
