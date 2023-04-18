@@ -7,6 +7,7 @@ public class Lamp {
     private String NameLamp;
     private double overallPowerConsumption;
     private List <Glueelement> glueElement;
+    private Glueelement getGlueelement;
 
 
 
@@ -21,5 +22,24 @@ public class Lamp {
         this.glueElement.add(glueelement);
 
     }
-  public
+    public Glueelement getGetGlueelement(){
+        return getGlueelement;
+}
+
+    public void setGetGlueelement (Glueelement getGlueelement) {
+        this.getGlueelement=getGlueelement;
+    }
+    public String getNameLamp(){
+        return NameLamp;
+    }
+    public void setNameLamp (String nameLamp) {
+        this.NameLamp=NameLamp;
+    }
+
+    public List<Glueelement> getGlueElement() {
+        return glueElement;
+    }
+    public void setGlueElement(List<Glueelement>glueelement){
+        this.glueElement=glueelement;
+    }
 }
