@@ -42,4 +42,19 @@ public class Lamp {
     public void setGlueElement(List<Glueelement>glueelement){
         this.glueElement=glueelement;
     }
+
+    public double getOverallPowerConsumption() {
+        return overallPowerConsumption;
+    }
+
+    public void setOverallPowerConsumption(double overallPowerConsumption) {
+        this.overallPowerConsumption = overallPowerConsumption;
+    }
+    public void turnOn(){
+        for (int i = 0; i <Glueelement; i++) {
+            if(this.getGlueelement(i).isOn());
+            
+        }
+    }
+
 }
