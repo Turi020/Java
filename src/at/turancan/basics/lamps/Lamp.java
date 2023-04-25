@@ -51,8 +51,7 @@ public class Lamp {
         this.overallPowerConsumption = overallPowerConsumption;
     }
     public void turnOn(){
-        for (int i = 0; i <Glueelement; i++) {
-            if(this.getGlueelement(i).isOn());
+
             
         }
     }
