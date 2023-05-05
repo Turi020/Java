@@ -5,5 +5,11 @@ public class Main {
         RootCalculator rootcalc = new RootCalculator();
         Calculator cal= new Calculator();
         EconomicalCalculator Eco = new EconomicalCalculator();
+
+        System.out.println(cal.division(10,2));
+        System.out.println(cal.addition(5,9));
+        System.out.println(cal.multiplication(5,1));
+        System.out.println(cal.subtraction(9,7));
+
     }
 }
