@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args){
         RootCalculator rootcalc = new RootCalculator();
         Calculator cal= new Calculator();
-        EconomicalCalculator Eco = new EconomicalCalculator();
+        ScientificCalculator scie= new ScientificCalculator();
 
         System.out.println(cal.division(10,2));
         System.out.println(cal.addition(5,9));
