@@ -19,4 +19,7 @@ public class PhoneFile {
     public int getSize(){
         return size;
     }
+    public String getInfo(){
+        return this.extension + " " + this.persname + " " + this.size;
+    }
 }
